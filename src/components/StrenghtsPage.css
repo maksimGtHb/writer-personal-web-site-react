@@ -1,0 +1,133 @@
+.strengths-page{
+    padding-top: 1em;
+}
+
+
+.strengths-image-container {
+    display: flex;
+    padding-bottom: 1.2em;
+    position: relative;
+    
+
+    justify-content: center;
+    
+    
+}
+
+.strengths-page p{
+    font-size: 1.6em;
+    
+    
+    
+    
+    
+}
+
+.strengths-image{
+    display: block;
+    width: 100%;
+    max-width: 28em;
+    border-radius: 0.2em;
+    height: auto;
+    
+
+   
+}
+
+.strengths-image-big{
+    width: 100%;
+    border-radius: 0.4em;
+    height: auto;
+    max-width: 62em;
+    
+}
+
+
+figcaption{
+  position: absolute;
+  bottom: 1em;
+  background-color: aliceblue;
+  font-size: 1.8em;
+  margin-left: 0.6em;
+  text-align: center;
+  padding: 0 0.2em;
+  padding-bottom: 0.8em;
+  width: auto;
+  text-align: left;
+  height: 1em;
+
+  opacity: 0; 
+  visibility: hidden; 
+  transition: opacity 0.8s ease-in-out, visibility 0.6s ease-in-out;
+  
+}
+
+
+figure:hover figcaption {
+    opacity: 1; /* Show on hover */
+    visibility: visible;
+}
+
+.whyThisProfession{
+    padding-top: 1em;
+    position: relative;
+    
+}
+
+
+
+.whyThisProfession button{
+    position: absolute;
+    top: 66%;
+    left: 70%;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    color: #333;
+    border-radius: 0.2em;
+    cursor: pointer;
+}
+
+.whyThisProfession button:hover{
+    background-color: rgb(206, 128, 206);
+    color: white;
+}
+
+
+
+.whyThisProfessionView{
+    position: absolute;
+    width: 80%;
+    padding: 3em;
+    
+    color: white;
+    
+    left: 50%;
+    background: rgba(4, 32, 51, 0.2);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    height: 60%;
+    
+ 
+}
+
+.whyThisProfessionText{
+    position: absolute;
+    width: 60%;
+    padding: 3.8em;
+    
+    color: white;
+    font-size: 2.6em;
+    left: 50%;
+    background: rgba(30, 30, 30, 0.5);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    
+}
+
+.whyThisProfessionText:hover{
+    background-color: rgba(50, 50, 50, 0.5);
+
+}

@@ -1,0 +1,163 @@
+
+
+
+.offers{
+    padding-top: 1em;
+    
+}
+
+.offer{
+    background-color: #333;
+    font-size: 2em;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0.2em;
+    padding: 1em;
+    
+
+}
+
+.offer-header{
+    display: flex;
+}
+
+
+.offer-title{
+    padding-bottom: 0.4em;
+}
+.offer-description{
+
+    font-size: 0.6em;
+    color:aliceblue;
+    font-weight: lighter;
+}
+
+.offer-price{
+    position: absolute;
+    margin-left: 78%;
+    font-size: 1em;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 2s ease, transform 4s ease, visibility 0s;
+    
+    text-align: center;
+    
+}
+
+.offer:hover{
+    background-color:#636363
+}
+
+.offer:hover .offer-price{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.products-title{
+    justify-content: center;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+  
+}
+
+.products{
+     
+    display: flex;
+    gap: 1em;
+    background-color: white;
+    
+    padding-bottom: 0.8em;
+    justify-content: center;
+}
+
+.card{
+    background: #333;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    width: 30%;
+    padding-bottom: 3em;
+    padding-top: 1em;
+    
+}
+
+.card img{
+    width: 20%;
+}
+
+.card:hover{
+    background-color:#838383
+}
+
+.card-button{
+    font-size: 1.2em;
+    color: #333;
+    cursor: pointer;
+}
+
+.card-button:hover{
+   background-color: aliceblue;
+    
+
+}
+
+.hr-lines{
+    display: flex;
+
+    
+}
+
+.hr-lines hr {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.finishing-block{
+    
+    position: relative;
+    color: white;
+    margin-bottom: 0em;
+    
+
+}
+
+.finishing-block img{
+    display: block;
+}
+
+.finishing-block button{
+    position: absolute; 
+    top: 72%;
+    left: 80%;
+    font-size: 3em;
+    cursor: pointer;
+    
+}
+
+.finishing-block p{
+    position: absolute;
+    top: 4%;
+    margin-left: 1em;
+    font-size: 3em;
+    color: white;
+}
+
+
+.finishing-block a{
+    position: absolute;
+    top: 60%;
+    margin-left: 1.4em;
+    font-size: 2.4em;
+    left: 0%;
+    color: white;
+    text-decoration: none;
+}
+
+.finishing-block a:hover{
+    color: aliceblue;
+
+
+}
+
