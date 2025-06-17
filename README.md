@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # writer-personal-web-site-react
 This is a website about a personal profession. An example of an implementation using the React library
 =======
@@ -72,4 +72,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> ba149c9 (first commit)
+
