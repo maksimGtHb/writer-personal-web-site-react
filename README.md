@@ -3,7 +3,7 @@
 This is a website about a personal profession. An example of an implementation using the React library
 =======
 
-View the web site at the link
+🌐 View the React project at the link
 
 
 
