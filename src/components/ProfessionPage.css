@@ -1,0 +1,87 @@
+.professionPage{
+    padding-top: 2em;
+    
+    
+    
+}
+
+
+
+
+
+.text-block{
+    margin: 0 auto;
+    width: 60%;
+    font-size: 2.2em;
+    border-style:inset;
+    border-color: rgb(206, 128, 206);
+    border-radius: 1em;
+    padding: 0.8em;
+    background-color: white;
+    text-align: left;   
+    color: #333;
+}
+
+
+.title {
+    font-size: 1.8em;
+    
+
+}
+
+.application{
+    margin: auto;
+    color: #4c419a;
+    width: 60%;
+
+  
+}
+
+
+.application-example{
+    display: flex;
+    align-items: center;
+
+
+    display: flex;
+    border: 0.1em solid #333;
+    border-radius: 2em;
+    
+    padding: 2em;
+    margin: 0 auto 1em auto;
+   
+    
+    
+    
+}
+
+.ap-head{
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: left;
+    width: 15em;
+   
+    
+    
+    
+
+
+    
+    
+}
+
+
+
+
+
+.description{
+
+    flex: 1;
+    font-size: 1.4em;
+    
+    
+    text-align: left;
+    color: #333;
+    
+}
+
