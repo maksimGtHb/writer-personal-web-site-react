@@ -10,10 +10,6 @@ const SideNav = () => {
     };
     return(
 
-   
-
-
-
         <>
         <Toggle onClick = {toggleNav}>
  
